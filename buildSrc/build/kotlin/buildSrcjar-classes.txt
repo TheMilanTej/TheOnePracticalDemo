@@ -1,0 +1,1 @@
+/mnt/5098BCDD4294AC46/androidPro/LiveProject/TheOnePractical/buildSrc/build/classes/kotlin/main/AppConfig.class:/mnt/5098BCDD4294AC46/androidPro/LiveProject/TheOnePractical/buildSrc/build/classes/kotlin/main/Dependencies.class

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">The One</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="no_of_record">No. of Record</string>
+    <string name="search_restaurant">Search Restaurant</string>
+    <string name="priceAndPerson">%s \u2022 %s</string>
+    <string name="txt_welcome">Welcome!</string>
+    <string name="txt_welcome_desc">This app will provide you with weather details according to users, please login with your credentials.</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_login_2">Log in</string>
+    <string name="hint_email">Email Address</string>
+    <string name="txt_login_desc">Please enter your Email Address and Password below</string>
+    <string name="hint_pass">Password</string>
+    <string name="default_email_for_fast_testing">testapp@google.com</string>
+    <string name="default_pass_for_fast_testing">Test@123456</string>
+    <string name="empty_email">Email cannot be blank.</string>
+    <string name="empty_pass">Password cannot be blank.</string>
+    <string name="invalid_email">Enter a valid email address.</string>
+    <string name="invalid_pass">Password does not meet criteria.</string>
+    <string name="menu_user_list">User List</string>
+    <string name="txt_no_user">Oops! Seems like users are not added yet.\nAdd User from + icon from top right corner.</string>
+    <string name="txt_user_detail">Add User Details</string>
+    <string name="hint_fname">First Name</string>
+    <string name="hint_lname">Last Name</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_text">Are you sure you want to delete this user data?</string>
+    <string name="txt_add_user">Add User</string>
+    <string name="fname_empty">Please provide first name.</string>
+    <string name="lname_empty">Please provide last name.</string>
+    <string name="weather">Weather</string>
+    <string name="txt_logout">Logout</string>
+</resources>

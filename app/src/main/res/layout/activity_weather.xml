@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".ui.user.UserListActivity">
+
+    <include
+        android:id="@+id/incActionBar"
+        layout="@layout/layout_common_action_bar" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtWeatherData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="@string/txt_user_detail"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24ssp"
+        app:fontFamily="@font/poppins_semibold_600"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/incActionBar" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtWeatherDataMix"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="@dimen/_4sdp"
+        android:maxLines="5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
+        app:fontFamily="@font/poppins_medium_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeatherData" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

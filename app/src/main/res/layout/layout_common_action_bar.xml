@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:background="@drawable/shape_action_bg">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/txtMenuBack"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginVertical="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@color/menu_bg"
+        app:contentPadding="@dimen/_8sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/menuRadius"
+        app:srcCompat="@drawable/ic_back"
+        app:strokeColor="@color/white"
+        app:strokeWidth="@dimen/_1sdp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtMenuTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:includeFontPadding="false"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:text="@string/menu_user_list"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        app:fontFamily="@font/poppins_medium_500"
+        app:layout_constraintBottom_toBottomOf="@+id/txtMenuBack"
+        app:layout_constraintEnd_toStartOf="@+id/txtMenuAdd"
+        app:layout_constraintStart_toEndOf="@+id/txtMenuBack"
+        app:layout_constraintTop_toTopOf="@+id/txtMenuBack" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/txtMenuAdd"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginVertical="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@color/menu_bg"
+        app:contentPadding="@dimen/_8sdp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/menuRadius"
+        app:srcCompat="@drawable/ic_add"
+        app:strokeColor="@color/white"
+        app:strokeWidth="@dimen/_1sdp" />
+
+    <com.milantejani.theonepractical.ui.customView.FButton
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:fontFamily="@font/poppins_semibold_600"
+        android:includeFontPadding="false"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:shadowColor="@color/btn_color_shadow"
+        android:text="@string/txt_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:visibility="gone"
+        app:buttonColor="@color/btn_color"
+        app:cornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shadowEnabled="true"
+        app:shadowHeight="@dimen/_4sdp"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
